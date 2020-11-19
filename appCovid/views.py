@@ -15,6 +15,5 @@ def index(request):
 
     """
     context = {
-        "title": "halo gan",
     }
     return render(request, 'base.html', context)
